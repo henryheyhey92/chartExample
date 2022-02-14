@@ -1,0 +1,8 @@
+#container{
+    display: flex;
+}
+
+.test{
+    flex-basis: 100%;
+    flex: 1;
+}
