@@ -5,7 +5,7 @@ const options = {
     }, 
     series :[21, 23, 22, 44, 55],
     labels :['English', 'Mathematics', 'Chinese', 'Science', 'PE'],
-    colors: ['#DB7F67', '#DBBEA1', '#A37B73', '#3F292B', '#D34F73']
+    colors: ['#DB7F67', '#DBBEA1', '#A37B73', '#3F292B', '#D34F73']  //this is to add the color scheme
 }
 const divChart =document.querySelector('#chart');
 //create a new chart obj
