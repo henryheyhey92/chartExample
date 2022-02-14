@@ -1,20 +1,16 @@
 const options = {
     'chart':{
-        'type': 'line',
+        'type': 'bar',
         'height': '100%'
     }, 
     'series':[
         {
-            'name':'sightings',
-            'data':[10,13,15,22,34,23,55,78,44]
-        },
-        {
-            'name':'temperature',
-            'data': [33, 21, 22, 24, 25, 26, 21, 31, 44]
+            'name':'Revenue',
+            'data': [1200000, 650000, 700000, 450000, 30000, 250000]
         }
     ],
     xaxis:{
-        'categories':['Jan', 'Feb', 'Mar', 'Apr','May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct' ]
+        'categories':['Jan', 'Feb', 'Mar', 'Apr','May', 'Jun' ]
     }
 }
 const divChart =document.querySelector('#chart');
